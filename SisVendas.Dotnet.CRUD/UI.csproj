@@ -104,9 +104,9 @@
     </Compile>
     <Compile Include="Infraestrutura\EstruturaGridView.cs" />
     <Compile Include="Infraestrutura\TextBoxCustomValues.cs" />
-    <Compile Include="Migrations\202106120156064_addCampo.cs" />
-    <Compile Include="Migrations\202106120156064_addCampo.Designer.cs">
-      <DependentUpon>202106120156064_addCampo.cs</DependentUpon>
+    <Compile Include="Migrations\202106120524247_inicial.cs" />
+    <Compile Include="Migrations\202106120524247_inicial.Designer.cs">
+      <DependentUpon>202106120524247_inicial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Entities\Clientes.cs" />
@@ -144,8 +144,8 @@
     <EmbeddedResource Include="Forms\Vendas\FrmVendas.resx">
       <DependentUpon>FrmVendas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202106120156064_addCampo.resx">
-      <DependentUpon>202106120156064_addCampo.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202106120524247_inicial.resx">
+      <DependentUpon>202106120524247_inicial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -316,10 +316,10 @@
     <None Include="Resources\Produto30px.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Database\dados.mdf">
+    <Content Include="dados.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Database\dados_log.ldf">
+    <Content Include="dados_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>dados.mdf</DependentUpon>
     </Content>

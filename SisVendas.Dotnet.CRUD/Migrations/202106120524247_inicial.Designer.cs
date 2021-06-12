@@ -7,13 +7,13 @@ namespace UI.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class addCampo : IMigrationMetadata
+    public sealed partial class inicial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(addCampo));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(inicial));
         
         string IMigrationMetadata.Id
         {
-            get { return "202106120156064_addCampo"; }
+            get { return "202106120524247_inicial"; }
         }
         
         string IMigrationMetadata.Source

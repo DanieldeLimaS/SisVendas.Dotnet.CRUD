@@ -16,6 +16,7 @@ namespace UI.Models.Entities
         public int VendaCodigo { get; set; }
 
         public int QtdVendido { get; set; }
+
         public decimal ValorVendido { get; set; }
 
         public virtual Produtos Produtos { get; set; }
