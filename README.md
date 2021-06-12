@@ -6,7 +6,7 @@
  <a href="https://www.linkedin.com/in/daniellimals/">
     <img alt="Linkedin" src="https://img.shields.io/badge/-Daniel%20Lima-0e76a8?label=Linkedin&logo=linkedin&style=flat-square"/>
   </a>
-  <a href="https://github.com/DanieldeLimaS/SisVendas.Dotnet.CRUD/blob/main/LICENSE">
+  <a href="https://github.com/DanieldeLimaS/SisVendas.Dotnet.CRUD/blob/master/LICENSE">
     <img alt="MIT license" src="https://img.shields.io/github/license/DanieldeLimaS/SisVendas.Dotnet.CRUD?color=A31F34&style=flat-square"/>
   </a>
   <a href="https://github.com/DanieldeLimaS/SisVendas.Dotnet.CRUD/issues">
