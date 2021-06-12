@@ -133,14 +133,11 @@
   <data name="FinalizarVenda" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FinalizarVenda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EditarPropriedade20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EditarPropriedade20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Produto30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Produto30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="EsvaziarCarrinho" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EsvaziarCarrinho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ExcluirPropriedade20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ExcluirPropriedade20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ExcluirPropriedade" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ExcluirPropriedade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,8 +148,11 @@
   <data name="Excluir20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Excluir20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Excluir" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Excluir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mensagemEmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mensagemEmail.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Produtos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Produtos.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Editar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Editar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,14 +160,26 @@
   <data name="CarrinhoComprasAnimado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CarrinhoComprasAnimado.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Remover20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Remover20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdicionarCliente1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdicionarCliente.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Remover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Remover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Produto30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Produto30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cancelar20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cancelar20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CarrinhoCompras1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CarrinhoCompras.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Produtos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Produtos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Salvar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Salvar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,6 +217,9 @@
   <data name="AdicionarCliente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AdicionarCliente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="CarrinhoCompras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CarrinhoCompras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="EditarNovo20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EditarNovo20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -220,43 +235,31 @@
   <data name="Apagar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Apagar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="EnviarEmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnviarEmail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="AdicionarCarrinho20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AdicionarCarrinho20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FinalizarVenda20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FinalizarVenda20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CriarNovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CriarNovo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ExcluirPropriedade20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExcluirPropriedade20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FinalizarVenda20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FinalizarVenda20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Excluir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Excluir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditarPropriedade20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditarPropriedade20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Clientes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Clientes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EnviarEmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EnviarEmail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mensagemEmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mensagemEmail.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cancelar20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cancelar20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="AdicionarCliente1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AdicionarCliente.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CarrinhoCompras" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CarrinhoCompras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CarrinhoCompras1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CarrinhoCompras.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Produtos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Produtos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Produtos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Produtos.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fundo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

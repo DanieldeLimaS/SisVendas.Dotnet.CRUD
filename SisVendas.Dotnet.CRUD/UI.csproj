@@ -323,6 +323,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>dados.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\fundo.png" />
     <None Include="Resources\logo.ico" />
     <None Include="Resources\AdicionarCliente.ico" />
     <None Include="Resources\CarrinhoCompras.ico" />

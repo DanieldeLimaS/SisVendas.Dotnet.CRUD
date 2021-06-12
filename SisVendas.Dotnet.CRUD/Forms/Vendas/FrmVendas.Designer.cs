@@ -47,10 +47,16 @@ namespace UI.Forms.Vendas
             this.txbDtVenda = new System.Windows.Forms.TextBox();
             this.lblEmailCliente = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.txbCodVenda = new System.Windows.Forms.TextBox();
             this.cbxClientes = new System.Windows.Forms.ComboBox();
             this.panelProdutosAdd = new System.Windows.Forms.Panel();
+            this.btnAddProduto = new System.Windows.Forms.Button();
+            this.btnFinalizarVenda = new System.Windows.Forms.Button();
+            this.btnEnviarEmail = new System.Windows.Forms.Button();
             this.tpVendasRealizadas = new System.Windows.Forms.TabPage();
+            this.BtnNovaVenda = new System.Windows.Forms.Button();
+            this.btnPesquisar = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.dtpFim = new System.Windows.Forms.DateTimePicker();
             this.label10 = new System.Windows.Forms.Label();
@@ -60,12 +66,6 @@ namespace UI.Forms.Vendas
             this.label8 = new System.Windows.Forms.Label();
             this.dgvVendasRealizadas = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnAddProduto = new System.Windows.Forms.Button();
-            this.btnFinalizarVenda = new System.Windows.Forms.Button();
-            this.btnEnviarEmail = new System.Windows.Forms.Button();
-            this.BtnNovaVenda = new System.Windows.Forms.Button();
-            this.btnPesquisar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numQtd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaProdutos)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -263,6 +263,19 @@ namespace UI.Forms.Vendas
             this.label6.TabIndex = 11;
             this.label6.Text = "Codigo da Venda:";
             // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Image = global::UI.Properties.Resources.Cancelar20px;
+            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCancelar.Location = new System.Drawing.Point(226, 305);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(108, 29);
+            this.btnCancelar.TabIndex = 18;
+            this.btnCancelar.Text = "Cancelar venda";
+            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
             // txbCodVenda
             // 
             this.txbCodVenda.Enabled = false;
@@ -300,6 +313,46 @@ namespace UI.Forms.Vendas
             this.panelProdutosAdd.Size = new System.Drawing.Size(487, 39);
             this.panelProdutosAdd.TabIndex = 16;
             // 
+            // btnAddProduto
+            // 
+            this.btnAddProduto.Image = global::UI.Properties.Resources.AdicionarCarrinho20px;
+            this.btnAddProduto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAddProduto.Location = new System.Drawing.Point(388, 14);
+            this.btnAddProduto.Name = "btnAddProduto";
+            this.btnAddProduto.Size = new System.Drawing.Size(75, 24);
+            this.btnAddProduto.TabIndex = 9;
+            this.btnAddProduto.Text = "Adicionar";
+            this.btnAddProduto.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAddProduto.UseVisualStyleBackColor = true;
+            this.btnAddProduto.Click += new System.EventHandler(this.btnAddProduto_Click);
+            // 
+            // btnFinalizarVenda
+            // 
+            this.btnFinalizarVenda.Image = global::UI.Properties.Resources.Pago20px;
+            this.btnFinalizarVenda.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFinalizarVenda.Location = new System.Drawing.Point(340, 305);
+            this.btnFinalizarVenda.Name = "btnFinalizarVenda";
+            this.btnFinalizarVenda.Size = new System.Drawing.Size(125, 29);
+            this.btnFinalizarVenda.TabIndex = 14;
+            this.btnFinalizarVenda.Text = "Finalizar a venda";
+            this.btnFinalizarVenda.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnFinalizarVenda.UseVisualStyleBackColor = true;
+            this.btnFinalizarVenda.Click += new System.EventHandler(this.btnFinalizarVenda_Click);
+            // 
+            // btnEnviarEmail
+            // 
+            this.btnEnviarEmail.Image = global::UI.Properties.Resources.EnviarEmail;
+            this.btnEnviarEmail.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEnviarEmail.Location = new System.Drawing.Point(340, 305);
+            this.btnEnviarEmail.Name = "btnEnviarEmail";
+            this.btnEnviarEmail.Size = new System.Drawing.Size(125, 29);
+            this.btnEnviarEmail.TabIndex = 17;
+            this.btnEnviarEmail.Text = "Enviar Email";
+            this.btnEnviarEmail.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnEnviarEmail.UseVisualStyleBackColor = true;
+            this.btnEnviarEmail.Visible = false;
+            this.btnEnviarEmail.Click += new System.EventHandler(this.btnEnviarEmail_Click);
+            // 
             // tpVendasRealizadas
             // 
             this.tpVendasRealizadas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -320,6 +373,33 @@ namespace UI.Forms.Vendas
             this.tpVendasRealizadas.TabIndex = 1;
             this.tpVendasRealizadas.Text = "Vendas Realizadas";
             this.tpVendasRealizadas.UseVisualStyleBackColor = true;
+            // 
+            // BtnNovaVenda
+            // 
+            this.BtnNovaVenda.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnNovaVenda.Image = global::UI.Properties.Resources.FinalizarVenda20px;
+            this.BtnNovaVenda.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnNovaVenda.Location = new System.Drawing.Point(7, 28);
+            this.BtnNovaVenda.Name = "BtnNovaVenda";
+            this.BtnNovaVenda.Size = new System.Drawing.Size(106, 23);
+            this.BtnNovaVenda.TabIndex = 9;
+            this.BtnNovaVenda.Text = "Nova Venda";
+            this.BtnNovaVenda.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnNovaVenda.UseVisualStyleBackColor = true;
+            this.BtnNovaVenda.Click += new System.EventHandler(this.BtnNovaVenda_Click);
+            // 
+            // btnPesquisar
+            // 
+            this.btnPesquisar.Image = global::UI.Properties.Resources.Pesquisar20px;
+            this.btnPesquisar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPesquisar.Location = new System.Drawing.Point(400, 67);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(82, 25);
+            this.btnPesquisar.TabIndex = 8;
+            this.btnPesquisar.Text = "Pesquisar";
+            this.btnPesquisar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnPesquisar.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
             // label11
             // 
@@ -402,97 +482,20 @@ namespace UI.Forms.Vendas
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackgroundImage = global::UI.Properties.Resources.fundo;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Location = new System.Drawing.Point(1, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(496, 21);
             this.panel1.TabIndex = 16;
-            // 
-            // btnCancelar
-            // 
-            this.btnCancelar.Image = global::UI.Properties.Resources.Cancelar20px;
-            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelar.Location = new System.Drawing.Point(226, 305);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(108, 29);
-            this.btnCancelar.TabIndex = 18;
-            this.btnCancelar.Text = "Cancelar venda";
-            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCancelar.UseVisualStyleBackColor = true;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
-            // 
-            // btnAddProduto
-            // 
-            this.btnAddProduto.Image = global::UI.Properties.Resources.AdicionarCarrinho20px;
-            this.btnAddProduto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAddProduto.Location = new System.Drawing.Point(388, 14);
-            this.btnAddProduto.Name = "btnAddProduto";
-            this.btnAddProduto.Size = new System.Drawing.Size(75, 24);
-            this.btnAddProduto.TabIndex = 9;
-            this.btnAddProduto.Text = "Adicionar";
-            this.btnAddProduto.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAddProduto.UseVisualStyleBackColor = true;
-            this.btnAddProduto.Click += new System.EventHandler(this.btnAddProduto_Click);
-            // 
-            // btnFinalizarVenda
-            // 
-            this.btnFinalizarVenda.Image = global::UI.Properties.Resources.Pago20px;
-            this.btnFinalizarVenda.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFinalizarVenda.Location = new System.Drawing.Point(340, 305);
-            this.btnFinalizarVenda.Name = "btnFinalizarVenda";
-            this.btnFinalizarVenda.Size = new System.Drawing.Size(125, 29);
-            this.btnFinalizarVenda.TabIndex = 14;
-            this.btnFinalizarVenda.Text = "Finalizar a venda";
-            this.btnFinalizarVenda.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnFinalizarVenda.UseVisualStyleBackColor = true;
-            this.btnFinalizarVenda.Click += new System.EventHandler(this.btnFinalizarVenda_Click);
-            // 
-            // btnEnviarEmail
-            // 
-            this.btnEnviarEmail.Image = global::UI.Properties.Resources.EnviarEmail;
-            this.btnEnviarEmail.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEnviarEmail.Location = new System.Drawing.Point(340, 305);
-            this.btnEnviarEmail.Name = "btnEnviarEmail";
-            this.btnEnviarEmail.Size = new System.Drawing.Size(125, 29);
-            this.btnEnviarEmail.TabIndex = 17;
-            this.btnEnviarEmail.Text = "Enviar Email";
-            this.btnEnviarEmail.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnEnviarEmail.UseVisualStyleBackColor = true;
-            this.btnEnviarEmail.Visible = false;
-            this.btnEnviarEmail.Click += new System.EventHandler(this.btnEnviarEmail_Click);
-            // 
-            // BtnNovaVenda
-            // 
-            this.BtnNovaVenda.Image = global::UI.Properties.Resources.FinalizarVenda20px;
-            this.BtnNovaVenda.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnNovaVenda.Location = new System.Drawing.Point(7, 28);
-            this.BtnNovaVenda.Name = "BtnNovaVenda";
-            this.BtnNovaVenda.Size = new System.Drawing.Size(102, 23);
-            this.BtnNovaVenda.TabIndex = 9;
-            this.BtnNovaVenda.Text = "Nova Venda";
-            this.BtnNovaVenda.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnNovaVenda.UseVisualStyleBackColor = true;
-            this.BtnNovaVenda.Click += new System.EventHandler(this.BtnNovaVenda_Click);
-            // 
-            // btnPesquisar
-            // 
-            this.btnPesquisar.Image = global::UI.Properties.Resources.Pesquisar20px;
-            this.btnPesquisar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPesquisar.Location = new System.Drawing.Point(400, 67);
-            this.btnPesquisar.Name = "btnPesquisar";
-            this.btnPesquisar.Size = new System.Drawing.Size(82, 25);
-            this.btnPesquisar.TabIndex = 8;
-            this.btnPesquisar.Text = "Pesquisar";
-            this.btnPesquisar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnPesquisar.UseVisualStyleBackColor = true;
-            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
             // FrmVendas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(499, 371);
-            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(515, 410);
@@ -500,7 +503,7 @@ namespace UI.Forms.Vendas
             this.MinimumSize = new System.Drawing.Size(515, 410);
             this.Name = "FrmVendas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmVendas";
+            this.Text = "Saída de Estoque";
             this.Load += new System.EventHandler(this.FrmVendas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numQtd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaProdutos)).EndInit();
